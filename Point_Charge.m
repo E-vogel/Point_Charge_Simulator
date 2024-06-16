@@ -24,8 +24,8 @@ function Point_Charge()
     E = sqrt(EX.^2 + EY.^2);
 
     % Video Writer Settings
-    video = VideoWriter('Point_Charge.avi', 'Uncompressed AVI');
-    open(video)
+    %video = VideoWriter('Point_Charge.avi', 'Uncompressed AVI');
+    %open(video)
 
     disp("Press escape key to exit.")
 
@@ -203,10 +203,10 @@ function Point_Charge()
             end
         end
         drawnow
-        frame = getframe(gcf);
-        writeVideo(video, frame)
+        %frame = getframe(gcf);
+        %writeVideo(video, frame)
     end
-    close(video)
+    %close(video)
 
     % Set various callback functions
     function myBDCallback(src, ~)
