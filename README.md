@@ -28,4 +28,6 @@ Here's an example of what the simulation output looks like:
 
 ## Update Information
 
-Simulation processing speed has been improved. (2024/06/22)
+**---2024/06/22---**
+
+Simulation processing speed has been improved. 
